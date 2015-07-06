@@ -1,0 +1,12 @@
+<div id="snapView" ng-controller="snapView" ng-init="fetchSnap();">
+<img src="" id="curSnapTache" alt="current snap">
+	<h1 class="titre">My Snapchat</h1>
+	<div class="block">
+	    <select id="listSnap">
+	       <option value="-1"></option>
+	        <option class="mySnap" ng-repeat="snap in mySnap" ng-model="snap.url" value="{{snap.url}} {{snap.temps}} {{snap.id}}">{{snap.username}}</option>
+	    </select>
+	    <button id="activation" ng-click="displaySnap()" class="button button-block button-dark">View</button>
+	    
+    </div>
+</div>

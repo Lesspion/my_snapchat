@@ -1,0 +1,2 @@
+C:\wamp\www\aaaaaa\My_snapchat\My_snapchat\platforms\android\build\intermediates\classes\debug
+C:\wamp\www\aaaaaa\My_snapchat\My_snapchat\platforms\android\build\intermediates\pre-dexed\debug\classes-7e6f234ade7ac0fde1193a08ba915bfda920e732.jar

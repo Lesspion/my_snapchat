@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\wamp\www\My_snapchat\My_snapchat\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="20aba8ba0638d3118638514d97f0b25c02e0a0d4">
+        <dex dex="C:\wamp\www\My_snapchat\My_snapchat\platforms\android\build\intermediates\pre-dexed\debug\classes-2f10830e9d2465e6a82fdd4afeed4dd7de983502.jar" />
+    </item>
+    <item
+        jar="C:\wamp\www\aaaaaa\My_snapchat\My_snapchat\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="212383104ccd68a8abed21276fc8b43d877e33c3">
+        <dex dex="C:\wamp\www\aaaaaa\My_snapchat\My_snapchat\platforms\android\build\intermediates\pre-dexed\debug\classes-7e6f234ade7ac0fde1193a08ba915bfda920e732.jar" />
+    </item>
+
+</items>

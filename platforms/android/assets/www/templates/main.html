@@ -1,0 +1,27 @@
+
+        
+
+<div id="takeSnap" ng-controller="snapshot" ng-init="getPhoto();contactList();">
+  <h1 class="titre">My Snapchat</h1>
+  <div class="block">
+    <img id="pict" width="50px" height="50px" src="" alt="current video" />
+    <p>Choose a friend : </p>
+    <select name="friends" id="friendsList" class="friends">
+        <option  ng-repeat="contact in contacts" value="{{contact.id}}">{{contact.username}}</option>
+    </select>
+    <p>Timer : </p>
+    <select name="timer" id="time">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+    </select>
+    <button id="sendFriend" ng-click="sendToFriend();" class="button button-block button-dark">Send to friend</button>
+    </div>
+</div>

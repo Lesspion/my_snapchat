@@ -1,0 +1,48 @@
+
+
+ <div id="main" ng-controller="forms">
+        <h1 class="titre">My Snapchat</h1>
+             <div id="login" class="panel">
+                 <div ng-show="showLogin" id="changeVal">
+                     <form method="post" action="?" id="login" name="login" class="form">
+                        <div class="list">
+                            <h2>Login</h2>
+                            <span id="wrong"></span>
+                            <label class="item item-input">
+                                  <span class="input-label">E-mail</span>
+                                 <input type="email" name="email" id="lmail">
+                            </label>
+                            <label class="item item-input">
+                                 <span class="input-label">Password</span>
+                                 <input type="password" name="password" id="lpwd">
+                            </label>
+                             <input type="submit" name="lsub" id="lsub" value="Login" class="register" ng-click="connection($event);">
+                        </div> 
+                     </form>
+                     <input ng-click="switchRegister();" href="#" class="register" value= "Register now">
+                     <div id="box">
+                        <input type="checkbox" id="stay" name="stay"><label>Stay connected</label>
+                     </div>
+                 </div>
+             </div>
+              <div id="register" class="panel">
+                <div ng-show="showRegister">
+
+                    <form method="post" action="#" id="register" name="register" class="form">
+                         <div class="list">
+                         <h2>Register</h2>
+                            <label class="item item-input">
+                                  <span class="input-label">E-mail</span>
+                                 <input type="email" name="email" id="rmail">
+                            </label>
+                            <label class="item item-input">
+                                 <span class="input-label">Password</span>
+                                 <input type="password" name="password" id="rpwd">
+                            </label>
+                             <input type="submit" name="lsub" id="lsub" value="Register" class="register" ng-click="registration($event);">
+                        </div> 
+                    </form>
+                    <input ng-click="switchLogin();" href="#" class="register" value="Login now">
+                </div>
+              </div>
+          </div>
